@@ -6,7 +6,7 @@ Pseudocodigos y diagramas de flujo de los retos 3.1 y 3.2
 graph TB;
     id1(inicio)-->id2[numero n]-->id3[x = 2]-->id4[listado de numeros i desde x hasta n]-->id5[listado de numeros desde x hasta i^0.5]-->id6{¿el residuo de i / z es 0?}-- si-->id7[no es primo]
     id6{¿el residuo de i / z es 0?}-- no -->id8{¿existe otro z por el que se pueda dividir i?}-- si -->id6{¿el residuo de i / z es 0?}
-    id8{¿existe otro z por el que se pueda dividir i?}-- no -->id9["es primo 😊"]-->id10(fin) 
+    id8{¿existe otro z por el que se pueda dividir i?}-- no -->id9["es primo 😊"]-->id10(fin)
 ```
 # Pseudocodigo de todos los numeros primos hasta n
 ```pseudocode
@@ -39,10 +39,9 @@ FIN
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    id1(INICIO)-->id2[numero n ]-->id3[n/2 = raiz_cuadrada]-->id4{¿raiz_cuadrada**2-n > 0.1?}-- no -->id5[raiz_cuadrada = verdadero]
+    id4{¿raiz_cuadrada**2-n > 0.1?}-- si -->id6[raiz_cuadrada = raiz_cuadrada**2 - n / raiz_cuadrada**2]-->id4{¿raiz_cuadrada**2-n > 0.1?}
+    id5[raiz_cuadrada = verdadero]-->id7(FIN)
 ```
 
 # pseudocodigo del "procedimiento matematico" para  encontrar una raiz cuadrada
