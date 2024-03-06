@@ -1,3 +1,9 @@
+# PYTHON F.C 
+AÑAÑAI
+[![Captura-de-pantalla-2024-03-03-190511.png](https://i.postimg.cc/nVgB4X31/Captura-de-pantalla-2024-03-03-190511.png)](https://postimg.cc/7b15DZ8C)
+ 
+ 
+ 
  # Reto_3
 
 Pseudocodigos y diagramas de flujo de los retos 3.1 y 3.2
